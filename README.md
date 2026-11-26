@@ -47,6 +47,8 @@ Por padrão, a API inicia em `http://localhost:8080`.
 
 Em ambientes como o Render, a aplicação usa a porta definida pela variável de ambiente `PORT`; se ela não estiver definida, usa `8080`.
 
+A rota raiz (`/`) redireciona para a interface Swagger. Os endpoints REST continuam disponíveis em suas rotas próprias, como `POST /transfers`.
+
 ## Testar pelo Swagger UI
 
 1. Com a aplicação em execução, abra [`http://localhost:8080/swagger-ui/index.html`](http://localhost:8080/swagger-ui/index.html).
